@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jogo da Velha</title>
+<style type="text/css">
+	.CaseGame{
+		background: #2d95d1;
+	}
+</style>
+
+<script language="javascript" type="text/javascript">
+	letra ="X";
+	joga (){
+
+	}
+	
+</script>
+</head>
+<body>
+<table border="1">
+	<tr>
+		<td id="casa1" class="CaseGame">1</td>
+		<td id="casa2" class="CaseGame">2</td>
+		<td id="casa3" class="CaseGame">3</td>
+	</tr>
+	<tr>
+		<td id="casa4" class="CaseGame">4</td>
+		<td id="casa5" class="CaseGame">5</td>
+		<td id="casa6" class="CaseGame">6</td>
+	</tr>
+	<tr>
+		<td id="casa7" class="CaseGame">7</td>
+		<td id="casa8" class="CaseGame">8</td>
+		<td id="casa9" class="CaseGame">9</td>
+	</tr>
+
+</table>
+<br><input type="button" value="Novo Jogo"/>
+</body>
+</html>
